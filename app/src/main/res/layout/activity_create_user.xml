@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.CreateUserActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opret_bruger"
+            android:textSize="35dp"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"/>
+
+
+        <EditText
+            android:id="@+id/et_email_create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="25sp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/e_mail"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/TextErrorMessage"
+            android:text="@string/email_text_error_message"/>
+
+        <EditText
+            android:id="@+id/et_password_create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="25sp"
+            android:inputType="textPassword"
+            android:hint="@string/password" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/TextErrorMessage"
+            android:text="@string/password_text_error_message"/>
+
+
+        <Button
+            android:id="@+id/btn_create_user"
+            android:onClick="createUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/opret_bruger"/>
+
+    </LinearLayout>
+
+</ScrollView>

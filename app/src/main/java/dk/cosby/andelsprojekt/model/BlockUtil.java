@@ -1,4 +1,4 @@
-package dk.cosby.andelsprojekt;
+package dk.cosby.andelsprojekt.model;
 
 /**
  *  Denne klasse indeholder metoder til at udregne hashes samt at mine blocks

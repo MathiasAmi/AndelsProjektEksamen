@@ -1,4 +1,4 @@
-package dk.cosby.andelsprojekt;
+package dk.cosby.andelsprojekt.model;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package dk.cosby.andelsprojekt;
+package dk.cosby.andelsprojekt.view;
 
 /**
  * Indtil videre kun en test klasse.
@@ -14,6 +14,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import dk.cosby.andelsprojekt.R;
+import dk.cosby.andelsprojekt.model.Block;
+import dk.cosby.andelsprojekt.model.BlockUtil;
+import dk.cosby.andelsprojekt.model.Blockchain;
+import dk.cosby.andelsprojekt.model.Transaction;
+import dk.cosby.andelsprojekt.model.User;
+import dk.cosby.andelsprojekt.model.UserType;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -25,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Blockchain blockchain = new Blockchain();
 
         //Skaber argumenter til block
-        User cosby = new User("cosby", "cosbypass");
+        User cosby = new User("cosby", "cosbypass", UserType.TEST);
 
-        User nicklas = new User("nicklas", "nicklaspass");
+        User nicklas = new User("nicklas", "nicklaspass", UserType.TEST);
 
         Transaction cosToNick = new Transaction(cosby, nicklas, 150);
 

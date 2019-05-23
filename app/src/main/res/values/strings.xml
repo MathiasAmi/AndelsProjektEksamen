@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AndelsProjekt</string>
+
+    <string name="email">E-mail adresse</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="opret_bruger">Opret Bruger</string>
+    <string name="email_text_error_message">E-mailen ikke godkendt, kontrollér venligst om du har indtastet den korrekt.</string>
+    <string name="password_text_error_message">Kodeordet skal indeholde:  - mindst 8 karaktere  - mindst ét lille bogstav  - mindst ét stort bogstav  - mindst ét tegn eller tal</string>
+
+
 </resources>
