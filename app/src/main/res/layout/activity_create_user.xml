@@ -31,12 +31,14 @@
             android:hint="@string/e_mail"/>
 
         <TextView
+            android:id="@+id/tv_email_error_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:textColor="@color/TextErrorMessage"
-            android:text="@string/email_text_error_message"/>
+            android:text="@string/email_text_error_message"
+            android:visibility="gone"/>
 
         <EditText
             android:id="@+id/et_password_create_user"
@@ -49,17 +51,18 @@
             android:hint="@string/password" />
 
         <TextView
+            android:id="@+id/tv_password_error_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:textColor="@color/TextErrorMessage"
-            android:text="@string/password_text_error_message"/>
+            android:text="@string/password_text_error_message"
+            android:visibility="gone"/>
 
 
         <Button
             android:id="@+id/btn_create_user"
-            android:onClick="createUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
