@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "945322721301",
+    "firebase_url": "https://andels-projekt.firebaseio.com",
+    "project_id": "andels-projekt",
+    "storage_bucket": "andels-projekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945322721301:android:0553b92d39949fc3",
+        "android_client_info": {
+          "package_name": "dk.cosby.andelsprojekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945322721301-umbkplfc6b05iqlodgq85igje9om6b3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dk.cosby.andelsprojekt",
+            "certificate_hash": "b825f74d7e6e89264ba7895ab53d5bbd864bee82"
+          }
+        },
+        {
+          "client_id": "945322721301-5u7qqh89l4andvr29md310afpasf50ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjzswu_aV0dVJK_qMdAQK_EYJocN_nMs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945322721301-5u7qqh89l4andvr29md310afpasf50ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
